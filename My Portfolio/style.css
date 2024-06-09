@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    background: #000;
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(146, 233, 245);
+}
+.navbar-left{
+    padding-left: 30px;
+}
+.navbar-right{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.a-element{
+    padding: 10px;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 10px;
+    font-family: "Noto Sans", sans-serif;
+    text-decoration: none;
+
+}
+.heading{
+    color: #fff;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+
+}
+.home-left{
+    width: 50vw;
+    padding-left: 200px;
+}
+.home-right{
+    width: 50vw;
+    padding-left:100px;
+}
+.my-logo{
+    height: 400px;
+    color: #fff;
+}
+.info{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 20px bold;
+    letter-spacing: 1px;
+    font-style: normal;
+    color: #fff;
+}
+.services{
+    text-align: center;
+    padding: 50px;
+}
+.services-h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    color: rgb(56, 233, 56);
+    font-size: 50px;
+}
+.services-sub-content{
+    display: flex;
+    flex-direction: row;
+    
+}
+.services-card{
+    margin: 30px;
+    color: #fff;
+    border: 2px rgb(65, 167, 65) solid;
+    text-align: justify;
+    padding: 35px
+}
+.contact{
+    text-align: center;
+}
+.contact-info{
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}   
+.Instagram{
+    height: 50px;
+}
+.linkedin{
+    height: 50px;
+}
+.github{
+    height:50px;
+    color: #fff;
+    border-color: #fff;
+}
+.social-icon{
+    border-image-width: 10px;
+}
+.contact-h1{
+    color: rgb(66, 209, 66);
+}
